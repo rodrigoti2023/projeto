@@ -1,0 +1,13 @@
+{
+    "name": "ifsc/freelas",
+    "description": "Projeto de extensão",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Freelas\\Model\\": "model/",
+            "Freelas\\Controller\\": "controller/",
+            "Freelas\\Lib\\": "lib/"
+        }
+    },
+    "require": {}
+}
